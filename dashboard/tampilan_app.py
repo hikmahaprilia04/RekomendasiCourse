@@ -1,9 +1,4 @@
 import streamlit as st
-st.write("APP STARTED")
-import pandas as pd
-import joblib
-import matplotlib.pyplot as plt
-import os
 
 # =====================
 # PAGE CONFIG
@@ -13,6 +8,13 @@ st.set_page_config(
     page_icon="📊",
     layout="wide"
 )
+
+st.write("APP STARTED")
+
+import pandas as pd
+import joblib
+import matplotlib.pyplot as plt
+import os
 
 # =====================
 # THEME TOGGLE
